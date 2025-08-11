@@ -1,0 +1,40 @@
+.inicio-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+h1 {
+  color: #2d3e50;
+  margin-bottom: 24px;
+}
+
+.productos-list {
+  list-style: none;
+  padding: 0;
+}
+
+.producto-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 18px;
+  margin-bottom: 10px;
+  background: #f5f7fa;
+  border-radius: 8px;
+  font-size: 1.1rem;
+}
+
+.producto-nombre {
+  font-weight: 500;
+  color: #34495e;
+}
+
+.producto-precio {
+  color: #27ae60;
+  font-weight: bold;
+}
